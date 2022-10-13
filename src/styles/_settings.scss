@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', 'Helvetica', sans-serif;
+  & li {
+      list-style-type: none;
+  }
+}
+
+$color: #ff6060;
+$bg-1: #E5E5E5;
+$bg-2: #F7F7F7;
