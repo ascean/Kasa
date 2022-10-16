@@ -1,0 +1,65 @@
+.logo {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+
+        height: 63px;
+
+    
+    .elthouse{
+        margin-bottom: -6px;
+    }
+
+}
+    @media screen and (max-width:768px) {
+        .logo {
+            gap: 0px;
+            margin-bottom: 20px;
+            width: 180px;
+            .eltk {
+                width:22%;
+                height: 70%;
+            }
+            .elthouse {
+                width:20%;
+                height: 60%;
+            }
+            .elts {
+                width:20%;
+                height: 55%;
+                
+            }
+            .elta {
+                width:20%;
+                height: 55%;
+    
+            }
+        }
+    }
+    
+    @media screen and (max-width:480px) {
+        .navigation {
+            grid-template-columns: 100px 3fr;
+        }
+        .logo {
+            width: 100px;
+            height: 50px;
+            .eltk {
+                width:30%;
+                height: 60%;
+            }
+            .elthouse {
+                width:25%;
+                height: 50%;
+            }
+            .elts {
+                width:20%;
+                height: 45%;
+                
+            }
+            .elta {
+                height: 45%;
+    
+            }
+        }
+    }

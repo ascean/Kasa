@@ -1,0 +1,14 @@
+.banner.about {
+    background-image: url(../../assets/images/about.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    height: 223px;
+
+}
+
+@media screen and (max-width:768px) {
+    .banner.about {
+        border-radius: 10px;
+    }
+}

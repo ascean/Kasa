@@ -1,0 +1,27 @@
+.banner {
+
+    background-image: url(../../assets/images/topimg.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    height: 223px;
+    position: relative;
+
+    & h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-size: 48px;
+        font-weight: 500;
+
+    }
+
+    .bg-black {
+        border-radius: 25px;
+    }
+}

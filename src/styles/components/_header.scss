@@ -1,6 +1,99 @@
 .navigation {
-    padding: 30px;
-    display: flex;
-    justify-content: space-between;
+    margin: 50px 100px 30px 100px;
+}
+
+.navigation {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
     align-items: center;
+
+    & ul {
+        display: flex;
+        justify-content: right;
+        padding-left: 0px;
+
+        & li {
+            color: $color;
+            font-size: 24px;
+            font-style: normal;
+            text-align: right;
+
+            &:nth-child(1) {
+                padding-left: 1.5em;
+            }
+        }
+    }
+
+    .nav-active {
+        text-decoration: underline $color;
+    }
+
+    .logo img {
+        display: inline-block;
+        width: 250px;
+    }
+}
+
+@media screen and (min-width:1025px) and (max-width:1200px) {
+
+    .navigation {
+        margin: 50px 50px 30px 50px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+
+    .navigation {
+        margin: 50px 50px 30px 50px;
+    }
+
+    .navigation {
+
+        & ul li {
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+
+        & .logo img {
+            width: 150px;
+        }
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+
+    .navigation {
+        margin: 30px;
+    }
+
+    .navigation {
+
+        & ul li {
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+
+        & .logo img {
+            width: 150px;
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    .navigation {
+        margin: 30px;
+    }
+
+    .navigation {
+
+        & ul li {
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+
+        & .logo img {
+            width: 100px;
+        }
+    }
 }

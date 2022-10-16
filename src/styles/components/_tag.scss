@@ -1,0 +1,17 @@
+.tags-container {
+    display: flex;
+    gap: 10px;
+    
+    .tag {
+        background-color: $color;
+        color: white;
+        height: 25px;
+        width: 115px;
+        border-radius: 10px;
+        font-size: 14px;
+        text-align: center;
+        line-height: 25px;
+        
+    }
+
+}
