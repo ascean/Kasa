@@ -10,14 +10,16 @@ const Header = () => {
             <Logo colorLogo={numColor} />
             <ul>
                 <NavLink
-                        to="/"
-                        className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                        <li>Accueil</li>
+                    end
+                    to="/"
+                    className={(nav) => (nav.isActive ? "nav-active" : "")}>
+                    <li>Accueil</li>
                 </NavLink>
                 <NavLink
-                        to="/about"
-                        className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                        <li>A propos</li>
+                    end
+                    to="/about"
+                    className={(nav) => (nav.isActive ? "nav-active" : "")}>
+                    <li>A propos</li>
                 </NavLink>
             </ul>
         </div>
