@@ -22,7 +22,6 @@ const Home = () => {
                         }
                 </section>
             </main>
-            {/* //<Location location={locationDatas[9]}/> */}
         </div>
     );
 };
