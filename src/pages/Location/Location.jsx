@@ -6,9 +6,9 @@ import Tag from '../../components/Tag/Tag';
 import Slide from '../../components/Slide/Slide';
 
 const Location = ({ datas }) => {
-
-    const { idLocation } = useParams()
-    const dataLocation = datas.filter((location) => location.id === idLocation)[0]
+    console.log((datas));
+    const { id } = useParams()
+    const dataLocation = datas.filter((location) => location.id === id)[0]
     
     return (
         <main>
