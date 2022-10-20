@@ -1,6 +1,10 @@
 import React from 'react';
 import DropDown from '../../components/DropDown/DropDown';
 
+/**
+ * Affichage de la page A propos
+ * @returns 
+ */
 const About = () => {
     return (
             <main>

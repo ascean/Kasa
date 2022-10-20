@@ -5,8 +5,14 @@ import Star from '../../components/Star/Star';
 import Tag from '../../components/Tag/Tag';
 import Slide from '../../components/Slide/Slide';
 
+/**
+ * Affichage du détail du logement sélectionné
+ * @param {array} locationDatas (from json)
+ * @returns 
+ */
 const Location = ({ datas }) => {
-    console.log((datas));
+
+    //identifiant du logement
     const { id } = useParams()
     const dataLocation = datas.filter((location) => location.id === id)[0]
     
@@ -30,8 +36,8 @@ const Location = ({ datas }) => {
                     <Star rating={dataLocation.rating}/>
                 </div>
             </section>
-            <section className="section-dropdown">
 
+            <section className="section-dropdown">
                 <article>
                     <DropDown details={dataLocation.description} label="Description" type="text" />
                 </article>

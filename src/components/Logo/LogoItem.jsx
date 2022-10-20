@@ -1,5 +1,10 @@
 import React from 'react';
 
+/**
+ * Gestion de l'affichage des différents composants du logo
+ * @param {string} logo = code couleur 
+ * @returns 
+ */
 const LogoItem = (logo) => {
     let svg
     let className = logo.letter

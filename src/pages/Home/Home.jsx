@@ -2,10 +2,12 @@ import React from 'react';
 import locationDatas from '../../assets/logements.json'
 import Card from '../../components/Card/Card';
 
+/**
+ * Page accueil
+ */
 const Home = () => {
     return (
         <div>
-
             <main>
                 <section className='banner'>
                     <div className="bg-black"></div>

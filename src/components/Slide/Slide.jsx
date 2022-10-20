@@ -2,6 +2,11 @@ import React, { useState } from 'react';
 import chevronLeft from "../../assets/images/chevron-left.png"
 import chevronRight from "../../assets/images/chevron-right.png"
 
+/**
+ * Gestion du slide
+ * @param {array} dataLocation 
+ * @returns 
+ */
 const Slide = (dataLocation) => {
 
     const [currentIndex, setCurrentIndex] = useState(0)
