@@ -18,7 +18,26 @@
             transform: translate(50%,-50%);
         }
     }
+    .position {
+        position: absolute;
+        bottom: 25px;
+        left: 50%;
+        transform: translate(-50%,50%);
+
+        font-size: 18px;
+        color: white;
+
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+    }
     .btn > img {
         width: 50px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .slide .btn > img {
+        width: 30px;
     }
 }

@@ -32,9 +32,9 @@ const Slide = (dataLocation) => {
                 <ul className='banner-location'>
                     <img  src={dataLocation.pictures[currentIndex]} alt={dataLocation.title} />
                 </ul>
-            {isManyPictures ? <button className='btn btn-right' onClick={goToNext}><img src={chevronRight} alt=""/></button>: null}
+            {isManyPictures ? <button className='btn btn-right' onClick={goToNext}><img src={chevronRight} alt="" /></button> : null}
+            {isManyPictures ? <div className='position'>{currentIndex + 1}/{nbPictures}</div> : null}
         </section>
     );
 };
-
 export default Slide;

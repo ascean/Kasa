@@ -27,6 +27,9 @@
             padding-top: 100%;
             float: left;
         }
+        &.no-background {
+            background: transparent;
+        }
 
         & h2 {
             color: white;

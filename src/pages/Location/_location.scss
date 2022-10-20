@@ -81,4 +81,16 @@
         }
     }
 
+    @media screen and (max-width:428px) {
+        .part-right {
+            flex-direction: column-reverse;
+            margin-top: 0px;
+            height: 120px;
+
+        }
+        .star > img {
+            width: 25px;
+        }
+    }
+
 }
