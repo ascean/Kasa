@@ -4,6 +4,7 @@ import DropDown from '../../components/DropDown/DropDown';
 import Star from '../../components/Star/Star';
 import Tag from '../../components/Tag/Tag';
 import Slide from '../../components/Slide/Slide';
+import Error from '../Error/Error';
 
 /**
  * Affichage du détail du logement sélectionné
@@ -15,8 +16,10 @@ const Location = ({ datas }) => {
     //identifiant du logement
     const { id } = useParams()
     const dataLocation = datas.filter((location) => location.id === id)[0]
-    
+    if (!dataLocation) return (< Error />)
+        
     return (
+        
         <main>
             <Slide pictures = {dataLocation.pictures} title = {dataLocation.title} />
 

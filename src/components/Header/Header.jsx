@@ -18,7 +18,7 @@ const Header = () => {
                     className={(nav) => (nav.isActive ? "nav-active" : "")}>
                     <li>Accueil</li>
                 </NavLink>
-                <NavLink end to="/about"
+                <NavLink  to="/about"
                     className={(nav) => (nav.isActive ? "nav-active" : "")}>
                     <li>A propos</li>
                 </NavLink>
