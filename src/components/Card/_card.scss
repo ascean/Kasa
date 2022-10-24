@@ -87,6 +87,12 @@
         background-color: transparent;
         padding: 0;
         gap: 20px;
+
+        .card {
+            & h2 {
+                font-size: 1rem;
+            }
+        }
     }
 }
 
@@ -99,6 +105,13 @@
         background-color: transparent;
         padding: 0;
         gap: 20px;
+        
+        .card {
+            & h2 {
+                font-size: 0.8rem;
+                bottom: -10px;
+            }
+        }
     }
 
 }
