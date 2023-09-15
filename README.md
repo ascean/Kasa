@@ -18,7 +18,7 @@ Développement d'une plateforme web de location d’appartements entre particuli
 
 - Cloner le projet
 ```bash
-https://github.com/ascean/Kasa.git
+git clone https://github.com/ascean/Kasa.git
 ```
 
 - Dans le répertoire du projet, lancer : 
